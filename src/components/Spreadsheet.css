@@ -1,0 +1,36 @@
+.google-file-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.file-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logout-button {
+  background-color: rgb(255, 178, 178);
+  border: 1px solid rgb(228, 163, 163) !important;
+  border: none;
+}
+
+.spreadsheet-list-container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet-container {
+  display: flex;
+  justify-content: space-between;
+}
